@@ -12,7 +12,7 @@
         }
 
         h1 {
-            color: rgb(236, 192, 71);
+            color: rgb(255, 212, 22);
         }
     </style>
 </head>
@@ -20,9 +20,12 @@
     <h1>Olá, Mundo!</h1>
     <p>Já me livrei da maldição</p>
     <script>
-        window.alert('Minha primeira mensagem')
-        window.confirm('Está gostando de JS?')
-        window.prompt('Qual é o seu nome?')
+       var n1 = Number(window.prompt('Digite um número:')) //window.prompt trata o dado como uma string
+       var n2 = Number(window.prompt('Digite outro número:'))
+       var s = n1 + n2
+       window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}`)
+       // (number + number) para adição
+       // (string + string) + para concatenação
     </script>
 </body>
 </html>
